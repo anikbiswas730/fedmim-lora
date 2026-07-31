@@ -1,0 +1,10 @@
+torch>=2.1
+torchvision>=0.16
+transformers>=4.40
+peft>=0.10
+datasets>=2.18
+accelerate>=0.28
+bitsandbytes>=0.46.1
+numpy
+matplotlib
+tqdm

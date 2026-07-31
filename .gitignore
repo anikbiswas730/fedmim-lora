@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+checkpoints/
+fedmim_lora_final/
+loss_curve.png
+
+.venv/
+venv/
+*.egg-info/
+
+.DS_Store
