@@ -36,17 +36,3 @@ To fix the activation memory bottleneck, the framework applies a 75% masking rat
 *   The quadratic cost of attention is reduced by roughly 16x.
 *   Peak VRAM consumption drops to ~2.2 GB, easily fitting on a 16GB edge-class GPU.
 
-## Repo Structure
-
-```text
-fedmim-lora/
-├── config.py              # Hyperparameters (r=8, alpha=16, Dirichlet alpha=0.1)
-├── train.py               # Federated training entrypoint
-├── src/
-│   ├── data.py              # CIFAR-100 wrapper, Dirichlet partitioning, MIM collator
-│   ├── model.py             # ViT-B/16 + Fixed-A LoRA construction
-│   ├── aggregation.py       # Linear server-side B_i averaging
-│   ├── client.py            # Local training (AdamW, lr=3e-4, 4 epochs)
-│   └── checkpoint.py        # Save/resume helpers
-├── requirements.txt
-└── LICENSE
