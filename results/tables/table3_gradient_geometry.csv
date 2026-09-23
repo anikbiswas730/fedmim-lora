@@ -1,0 +1,9 @@
+client split,objective,κ² raw,κ² het,mean pairwise cos,noise share of raw
+α=0.05,FedMIM-LoRA (no labels),2.9505,1.0256,0.2229,0.7284
+α=0.05,Supervised FedLoRA (labels),2.3498,1.3301,0.26,0.4924
+α=0.1,FedMIM-LoRA (no labels),2.7086,0.7084,0.2395,0.8088
+α=0.1,Supervised FedLoRA (labels),2.0046,0.9621,0.3041,0.5771
+α=0.5,FedMIM-LoRA (no labels),2.3574,0.1719,0.2688,0.9847
+α=0.5,Supervised FedLoRA (labels),1.3459,0.2915,0.3976,0.8375
+IID,FedMIM-LoRA (no labels),2.7548,0.0266,0.2571,1.0439
+IID,Supervised FedLoRA (labels),1.0993,0.0266,0.4503,1.0286
